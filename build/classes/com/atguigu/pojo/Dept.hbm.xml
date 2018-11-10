@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2018-11-4 19:04:02 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.atguigu.pojo.Dept" table="DEPT">
+        <id name="deptNo" type="java.lang.Integer">
+            <column name="DEPTNO" />
+            <generator class="native" />
+        </id>
+        <property name="deptName" type="java.lang.String">
+            <column name="DEPTNAME" />
+        </property>
+    </class>
+</hibernate-mapping>
